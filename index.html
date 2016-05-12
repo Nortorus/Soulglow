@@ -1,53 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Soulglow</title>
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Soulglow</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="mitQuery.js"></script>
 </head>
 <body>
-	<header>
-		<img src="\\cv.local\dfs\Students\mads496k\Documents\V2\Websites\Soulglow\Images\logo.jpg" alt="Soulglow logo">
-		<h2>SOULGLOW - your life - your hair</h2>
-		<nav>
-		<a href="#">Special offers</a>
-		<a href="#">FAQ</a>
-		<a href="#">Terms and conditions</a>
-		<a href="#">About</a>
-	</nav>
-	</header>
-	<div>
-		<ul>
-			<li>Shampoo</li>
-			<li>Conditioner</li>
-			<li>Styling Products</li>
-			<li>Salon Hair Care</li>
-			<li>Hair Regrowth & Thickening</li>
-			<li>Hair & Scalp Treatments</li>
-			<li>Hair Color</li>
-			<li>Hair Appliances, Tools & Accessories</li>
-			<li>Hair Care Sets</li>
-			<li>Ethnic Hair Care</li>
-			<li>Children's Hair Care</li>
-			<li>Hair Care For Men</li>
-			<li>Natural & Organic Hair Care</li>
-		</ul>
-	</div>
-	<div></div>
-	<div>
-		<div>
-			<a href=""><img src="\\cv.local\dfs\Students\mads496k\Documents\V2\Websites\Soulglow\Images\Hair_product1.jpg" alt="Hair product"></a>
-		</div>
-		<div>
-			<a href=""><img src="\\cv.local\dfs\Students\mads496k\Documents\V2\Websites\Soulglow\Images\Hair_product2.jpg" alt="Another hair product"></a>
-		</div>
-		<div>
-			<a href=""><img src="\\cv.local\dfs\Students\mads496k\Documents\V2\Websites\Soulglow\Images\Hair_product3.png" alt="More hair hair products"></a>
-		</div>
-		<div>
-			<a href=""><img src="\\cv.local\dfs\Students\mads496k\Documents\V2\Websites\Soulglow\Images\Hair_product4.jpg" alt=""></a>
-		</div>
-	</div>
-	<footer><p>Soulglow 1433 mohawk blv. 5555 Cutfiels New York info@soulglow.com</p></footer>
+    <div id="wrapper" class="clearfix">
+        
+        <header>
+            <img id="Logo" src="Images\logo.jpg" alt="Soulglow logo">
+            <div id="headline">
+                <h1>SOULGLOW - your life - your hair</h1>
+                <nav>
+                    <ul>
+                        <li><a class="topnav" href="#">Special offers</a></li>
+                        <li><a class="topnav" href="#">FAQ</a></li>
+                        <li><a class="topnav" href="#">Terms and conditions</a></li>
+                        <li><a class="topnav" href="#">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="LeftNav">
+            <ul>
+                <li>Shampoo</li>
+                <li>Conditioner</li>
+                <li>Styling Products</li>
+                <li>Salon Hair Care</li>
+                <li>Hair Regrowth & Thickening</li>
+                <li>Hair & Scalp Treatments</li>
+                <li>Hair Color</li>
+                <li>Hair Appliances, Tools & Accessories</li>
+                <li>Hair Care Sets</li>
+                <li>Ethnic Hair Care</li>
+                <li>Children's Hair Care</li>
+                <li>Hair Care For Men</li>
+                <li>Natural & Organic Hair Care</li>
+            </ul>
+        </div>
+        <div class="fadein" id="slider">
+            <img src="Images\maxFactor.jpg" alt="">
+            <img src="Images\redken2.jpg" alt="">
+            <img src="Images\ghd.gif" alt="">
+        </div>
+        <div id="productHolder">
+            <div id="product1">
+                <a href=""><img src="Images\Hair_product1.jpg" alt="Hair product"></a>
+            </div>
+            <div id="product2">
+                <a href=""><img src="Images\Hair_product2.jpg" alt="Another hair product"></a>
+            </div>
+            <div id="product3">
+                <a href=""><img src="Images\Hair_product3.png" alt="More hair products"></a>
+            </div>
+            <div id="product4">
+                <a href=""><img src="Images\Hair_product4.jpg" alt="Even more hair products"></a>
+            </div>
+        </div>
+        <footer><p><span>Soulglow</span> 1433 mohawk blv. 5555 Cutfiels New York info@soulglow.com</p></footer>
+    </div>  
 </body>
 </html>
